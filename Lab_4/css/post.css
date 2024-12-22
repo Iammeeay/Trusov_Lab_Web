@@ -1,0 +1,58 @@
+.user {
+	display: flex;
+	margin: 8px 16px;
+	height: 40px;
+}
+ .user img {
+	height: 100%;
+ }
+
+ .user_name {
+	margin-left: 8px;
+ }
+
+ .user_name_title {
+	font-size: 16px;
+	font-weight: bold;
+ }
+ .user_name_link {
+	color: #536471;
+	font-size: 16px;
+ }
+
+.menu {
+	margin-left: auto;
+	margin-top: 8px;
+	width: 24px;
+	height: 24px;
+}
+
+.contentImg img {
+	width: 100%;
+}
+
+.reaction {
+	display: flex;
+	margin: 16px;
+}
+
+.reaction img {
+	width: 24px;
+	height: 24px;
+}
+
+.reaction_likeComment {
+	display: flex;
+	/* border: 1px solid black; */
+	margin-right: 24px;
+}
+
+.reaction_likeComment div {
+	font-size: 12px;
+	color: #536471;
+	margin: 4.5px 8px;
+}
+
+.reaction_favour {
+	margin-left: auto;
+}

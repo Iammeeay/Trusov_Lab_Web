@@ -1,0 +1,28 @@
+.comment {
+	border-top: 1px solid #EFF3F4;
+	padding: 0px 16px;
+}
+
+.comment_block {
+	display: flex;
+	margin: 8px 0px;
+	font-size: 16px;
+}
+
+.comment_block_userName {
+	font-weight: bold;
+
+}
+
+.comment_block_userLink {
+	color: #536471;
+	margin-left: 4px;
+}
+
+.comment_inputText {
+	background-color: #EFF3F4;
+	color: #536471;
+	border-radius: 16px;
+	height: 36px;
+	padding: 8px 16px;
+}
