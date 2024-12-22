@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Trusov_lab5_var1.9</title>
+	<!--Шрифт Inter-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/inter.min.css"> 
+	
+	<link rel="stylesheet"  href="./css/style.css">
+	<script src="./JS/select_phone.js"></script>
+	
+  </head>
+  
+  <body>
+
+	<div class="main">
+
+			<form class="main_form">
+				<div class="form_title"> <!--Заголовок формы--> 
+					<div class="form_title_title"> Get in touch </div>
+					<div class="form_title_text"> Our friendly team would love to hear from you. </div>
+				</div>
+				<div class="form_userName">
+					<div class="form_user">
+						<label class="form_user_label" for="firstName">First name</label>
+						<input class="form_user_input" type="text" name="firstName" id="firstName" value="First name">
+					</div>
+					<div class="form_user">
+						<label class="form_user_label" for="lastName">Last name</label>
+						<input class="form_user_input" type="text" name="lastName" id="lastName" value="Last name">
+					</div>
+				</div>
+				<div class="form_user">
+					<label class="form_user_label" for="email">Email</label>
+					<input class="form_user_input" type="text" name="email" id="email" value="you@company.com">
+				</div>
+
+				<div class="form_userPhone">
+						<label class="form_userPhone_label" for="phone">Phone number</label>
+						<div class="form_userPhone_input">
+							<select class="form_userPhone_input_list" id="country" onChange="select_phone()">
+								<option>US</option>
+								<option>RU</option>
+							</select>
+							<input class="form_userPhone_input_phone" type="text" name="phone" id="phone" value="+1 (555) 000-0000">
+						</div> 
+				</div>
+				<div class="form_user">
+					<label class="form_user_label" for="message">Message</label>
+					<textarea class="form_user_textarea" type="text" name="message" id="message"></textarea>
+				</div>
+
+				<div class="form_agree">
+						<input class="form_agree_input" type="checkbox" id="agree" name="agree" checked />
+						<label class="form_agree_label" for="agree">You agree to our friendly <u>privacy policy.</u></label>
+				</div>
+
+				<div class="form_send">
+					<button>Send message</button>
+				</div>	
+			</form>
+
+		<div class="main_photoImg">
+			<img src="./Img/photoImg.png"/>
+		</div>
+	</div>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+.header{
+	display: flex;
+	padding: 51px 10px 10px 62px;
+	font-family: 'Red Hat Display', sans-serif;
+}
+
+.header_logoImg{
+	width: 33px;
+	height: 42px;
+}
+
+.header_logoText{
+	font-size: 36px;
+	font-weight: bold;
+	padding: 0px 10px;
+}
