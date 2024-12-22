@@ -1,0 +1,137 @@
+.header_mobile {
+    display: none;
+}
+
+.header img {
+    height: 45px;
+}
+
+.header_container {
+    display: flex;
+    margin-left: auto;  
+    gap: 26px;
+}
+
+.header_menu {
+    display: flex;  
+    flex-grow: 1;
+}
+
+.header_menu-item {
+    color: #FAFDF2;
+    font-size: 18px;
+    font-weight: 600;
+    list-style: none;
+    padding: 14px;
+    gap: 26px;
+}
+
+#header_menu-item-blog {
+    color: #CBEA7B;
+}
+
+.header_button {
+    padding: 14px 24px;
+    background-color: #CBEA7B;
+    color: #262626;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+}
+
+/* Мобильная версия */
+@media (max-width: 768px) {
+    .header_mobile {
+        background-color: #1A3129;
+        display: flex;
+        padding: 40px 14px 16px 14px;
+        border-bottom: 1px solid #2C5446;
+    }
+
+    .header_mobile_text {
+        display: flex;
+        background-color: #234338;
+        border: 1px solid #2C5446;
+        border-radius: 8px;
+        padding: 10px 20px;
+        gap: 6px;
+        width: 100%;
+    }
+
+    .header_mobile_text img {
+        height: 20px;
+    }
+
+    .header_mobile_text-text {
+        color: #fff;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .header_mobile_text-arrow {
+        margin-left: auto;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .header img {
+        height: 34px;
+    }
+    .header_nav {
+        display: none;
+        flex-grow: 1;
+        flex-direction: column;
+        position: absolute;
+        top: 150px;
+        right: 20px;
+        background-color: #356554;
+        border-radius: 4px;
+        gap: 10px;
+        padding: 20px;
+    }
+
+    .header_nav.active {
+        display: flex;
+    }
+    
+    .header_menu {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        padding: 0;
+        gap: 15px;
+        margin: 0;
+    }
+    
+    .header_menu-item {
+        color: #FAFDF2;
+        font-size: 18px;
+        font-weight: 600;
+        list-style: none;
+        padding: 14px;
+    
+    }
+    
+    #header_menu-item-blog {
+        color: #CBEA7B;
+    }
+    
+    .header_add-menu {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+      }
+      
+      .header_add-menu-line {
+        margin: 2px;
+        width: 25px;
+        height: 3px;
+        background-color: #CBEA7B;
+        transition: all 0.5s ease;
+      }
+
+    .header_button {
+        display: none;
+    }
+}
