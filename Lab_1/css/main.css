@@ -1,0 +1,11 @@
+.uppBlock{
+    padding: 50px;
+    border-radius: 75px;
+    background: linear-gradient(132.05deg, #428E5F -17.38%, #112120 78.4%);
+    color: #FFFFFF;
+}
+
+.downBlock{
+    padding: 50px;
+    margin-top: 50px;
+}

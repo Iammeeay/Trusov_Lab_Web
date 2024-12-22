@@ -1,0 +1,44 @@
+.headerDown{
+    display: flex;
+}
+
+.headerDown_cont{
+    position: absolute;
+    margin-left: 100px;
+    flex-grow: 1;
+    width: 603px;
+    padding-top: 200px;
+}
+
+.headerDown_cont_buttonTop{
+    background-color: #FFFFFF;
+    opacity: 75%;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 15px;
+}
+
+.headerDown_cont_title{
+    font-size: 55px;
+    margin-top: 50px;
+}
+
+.headerDown_cont_text{
+    font-size: 25px;
+    opacity: 50%;
+    margin-top: 50px;
+}
+
+.headerDown_cont_buttonBot{
+    background: linear-gradient(129.54deg, #FF7B4E 15.57%, #FF584E 95.03%);
+    color: #FFFFFF;
+    font-size: 25px;
+    padding: 25px;
+    border-radius: 27px;
+    margin-top: 50px;
+}
+
+.headerDown_imgBlok{
+    flex-grow: 1;
+    margin-left: 176px;
+}

@@ -1,0 +1,33 @@
+.footer{
+    opacity: 50%;
+    display: grid;
+    margin-top: 150px;
+	grid-template-columns: 3fr 1fr 1fr 1fr 3fr 1fr 1fr;
+}   
+
+.footer_logo{
+    display: flex;
+    align-items: center;
+    color: #FF7C4E;    
+	font-size: 30px;
+}
+
+.footer_navElement{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+
+.footer_signIn{
+    background-color: transparent;
+    color: #FFFFFF;
+    font-size: 15px;
+}
+
+.footer_login{
+    padding: 13px 40px;
+    border-radius: 100px;
+    background: linear-gradient(129.54deg, #FF7B4E 15.57%, #FF584E 95.03%);
+    color: #FFFFFF;    
+	font-size: 15px;
+}

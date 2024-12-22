@@ -1,0 +1,46 @@
+.content{
+    display: flex;
+}
+
+.content_desc{
+    margin-left: 50px;
+}
+
+.content_desc_ques{
+    font-size: 45px;
+}
+
+.content_desc_user{
+    display: flex;
+	margin-top: 50px;
+}
+
+.content_desc_user_Img{
+    border-radius: 50%;
+}
+
+.content_desc_user_desc{
+    margin-top:  10px;
+    margin-left:  20px;  
+}
+
+.content_desc_user_desc_name{
+    font-size: 33px;
+}
+
+.content_desc_user_desc_place{
+    margin-top:  10px;
+    font-size: 25px;
+    opacity: 50%;
+}
+
+.content_answer{
+    margin-top: 75px;
+    font-size: 22px;
+    opacity: 50%;
+}
+
+.content_answer_stars{
+    display: flex;
+    margin-top: 50px;
+}
